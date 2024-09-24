@@ -1,5 +1,8 @@
 <body <?php body_class(); ?>>
+  <foorer>
+
   
+  </foorer>
 
 
 
