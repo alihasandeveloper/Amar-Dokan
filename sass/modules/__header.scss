@@ -1,0 +1,38 @@
+
+.header-wrapper {
+    background-color: var(--primary-color);
+    .header-content-wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 0;
+        .nav-logo {
+            a {
+                text-decoration: none;
+                .logo-text {
+                    font-size: 36px;
+                    font-weight: 700;
+                    color: #fff;
+                }
+            }
+    
+        }
+        .nav-menu {
+            .header-nav-menu {
+                display: flex;
+                gap: 20px;
+                li {
+                    list-style: none;
+                    a {
+                        text-decoration: none;
+                        color: #fff;
+                        transition: 0.5s;
+                        &:hover {
+                            text-decoration: underline;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
