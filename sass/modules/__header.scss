@@ -1,6 +1,6 @@
 
 .header-wrapper {
-    background-color: var(--primary-color);
+    background-color: $PrimaryColor;
     .header-content-wrapper {
         display: flex;
         justify-content: space-between;
@@ -13,6 +13,10 @@
                     font-size: 36px;
                     font-weight: 700;
                     color: #fff;
+                }
+                img {
+                    max-width: 150px;
+                    width: 100%;
                 }
             }
     

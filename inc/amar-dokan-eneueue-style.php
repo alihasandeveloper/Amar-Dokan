@@ -12,6 +12,7 @@ function amar_dokan_enqueue_style_js()  {
     //Font Awesome 
     wp_enqueue_style('font-awesome', 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css', array(), null);
     // Script
+    wp_enqueue_script('jquery');
     wp_enqueue_script( 'amar-dokan-script', get_template_directory_uri() . '/assets/js/script.js', [], $amar_dokan_version, true );
 }
 

@@ -21,6 +21,10 @@
   font-weight: 700;
   color: #fff;
 }
+.header-wrapper .header-content-wrapper .nav-logo a img {
+  max-width: 150px;
+  width: 100%;
+}
 .header-wrapper .header-content-wrapper .nav-menu .header-nav-menu {
   display: flex;
   gap: 20px;
