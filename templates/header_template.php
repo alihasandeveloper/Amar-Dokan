@@ -16,9 +16,9 @@
                 <div class="col-md-6">
                     <div class="nav-search-box">
                         <?php if (is_active_sidebar('header-search')) : ?>
-                            <aside id="secondary" class="widget-area">
+                            <div id="secondary" class="widget-area">
                                 <?php dynamic_sidebar('header-search'); ?>
-                            </aside>
+                            </div>
                         <?php endif; ?>
 
                     </div>

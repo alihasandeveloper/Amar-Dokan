@@ -1,5 +1,6 @@
 <?php
 // Add Search Widget
+
 function amar_dokan_widgets_init() {
     register_sidebar( array(
         'name'          => __( 'Header Search Widget', 'amar-dokan' ),

@@ -1,3 +1,73 @@
-.header-area {
+.header-wrapper {
+    background-color: $PrimaryColor;
+  .header-area {
+    align-items: center;
     justify-content: space-between;
+    padding: 24px 0;
+    .brand-logo {
+      // border: 1px solid;
+      .logo {
+        text-decoration: none;
+        img {
+          max-width: 200px;
+          width: 100%;
+        }
+        span.logo-text {
+          color: #020202;
+          font-size: 36px;
+          font-weight: 700;
+          text-transform: uppercase;
+        }
+      }
+    }
+    .nav-search-box {
+        .widget-area {
+            .widget_search {
+                form {
+                    label {
+                        display: none;
+                    }
+                    .wp-block-search__inside-wrapper  {
+                        transition: all .5s ease;
+                        border-radius: 10px;
+                        input.wp-block-search__input {
+                            border: none;
+                            outline: none;
+                            padding: 12px;
+                            position: relative;
+                            width: 100%;
+                            border-radius: 10px 0 0 10px;
+                        }
+                        .wp-block-search__button {
+                            margin-left: 0px !important;
+                            background-color: #333e48;
+                            color: #fff;
+                            padding: 0 10px;
+                            // content: "<i class="fa-solid fa-magnifying-glass"></i>";
+                            border-radius: 0 10px 10px 0;
+                            border: none;
+                            text-transform: capitalize;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .nav-menu {
+      ul {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        gap: 40px;
+        li {
+          list-style: none;
+          a {
+            color: #fff;
+            font-size: 20px;
+          }
+        }
+      }
+    }
+  }
 }

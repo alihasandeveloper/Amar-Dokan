@@ -39,7 +39,7 @@ function amar_dokan_color_customizer($wp_customize)
 
     // Add a setting for the primary color
     $wp_customize->add_setting('amar_dokan_primary_color', array(
-        'default'   => '#15C5CE', // Default color
+        'default'   => '#009688', // Default color
         'transport' => 'refresh', // or 'postMessage' for live preview
     ));
 
