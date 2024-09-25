@@ -33,7 +33,7 @@
                         input.wp-block-search__input {
                             border: none;
                             outline: none;
-                            padding: 12px;
+                            padding: 12px 16px;
                             position: relative;
                             width: 100%;
                             border-radius: 10px 0 0 10px;
@@ -47,6 +47,11 @@
                             border-radius: 0 10px 10px 0;
                             border: none;
                             text-transform: capitalize;
+                            transition: all .1s ease;
+                            &:hover {
+                                background-color: #566777;
+                                // transition: all .5s ease;
+                            }
                         }
                     }
                 }
