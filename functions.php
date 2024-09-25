@@ -14,3 +14,7 @@ include_once('inc/amar-dokan-woocommerce.support.php');
 // Add Customizer
 
 include_once('inc/amar-dokan-customizer.php');
+
+// Add Widgtes 
+
+include_once('inc/amar-dokan-widgets.php');

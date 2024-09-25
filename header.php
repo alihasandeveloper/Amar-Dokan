@@ -14,8 +14,10 @@
 </head>
 
 <body <?php body_class(); ?>></body>
-
-<header class="header-wrapper">
+<?php 
+get_template_part('templates/header_template');
+?>
+<!-- <header class="header-wrapper">
     <div class="container ">
         <div class="header-top-wrapper">
             <div class="header-top-offer">
@@ -27,7 +29,7 @@
         </div>
         <div class="header-content-wrapper">
             <div class="nav-logo">
-                <a href="<?php echo home_url(); ?>">
+                <a class="logo" href="<?php echo home_url(); ?>">
                     <?php if (get_theme_mod('amar-dokan-header-logo')) : ?>
                         <img src="<?php echo esc_url(get_theme_mod('amar-dokan-header-logo')); ?>" alt="Header Logo">
                     <?php else : ?>
@@ -38,8 +40,29 @@
             </div>
 
             <div class="nav-menu">
-                <?php wp_nav_menu(array('theme_location' => 'header_menu', 'menu_class' => 'header-nav-menu')); ?>
+                <nav>
+                    <?php wp_nav_menu(array('theme_location' => 'header_menu', 'menu_class' => 'header-nav-menu')); ?>
+                </nav>
             </div>
         </div>
+        <div id="header-meanmenu-wrapper">
+
+        </div>
     </div>
-</header>
+
+    <div class="menu-container">
+        <div class="nav-logo">
+            <a class="logo" href="<?php echo home_url(); ?>">
+                <?php if (get_theme_mod('amar-dokan-header-logo')) : ?>
+                    <img src="<?php echo esc_url(get_theme_mod('amar-dokan-header-logo')); ?>" alt="Header Logo">
+                <?php else : ?>
+                    <span class="logo-text">Amar Dokan</span>
+                <?php endif; ?>
+            </a>
+        </div>
+
+        <div id="meanmenu">
+
+        </div>
+    </div>
+</header> -->

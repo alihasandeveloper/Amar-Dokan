@@ -55,7 +55,7 @@ add_action('customize_register', 'amar_dokan_color_customizer');
 
 
 function amar_dokan_customizer_css() {
-    $primary_color = get_theme_mod('amar_dokan_primary_color', '#ff3f34'); // Fallback color
+    $primary_color = get_theme_mod('amar_dokan_primary_color', '#ff3f34');
 
     echo '<style>
         :root {
